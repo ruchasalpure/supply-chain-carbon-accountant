@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: supply-chain-carbon-accountant
-runtime: python3.11
-entrypoint: agent.py

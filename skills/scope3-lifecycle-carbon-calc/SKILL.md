@@ -1,17 +1,25 @@
 ---
-name: "scope3-lifecycle-carbon-calc"
-description: "Maps supplier expenditure and activity data to granular cradle-to-gate lifecycle assessment emission factor coefficients"
-version: "1.0.0"
-category: "research"
+name: scope3-lifecycle-carbon-calc
+description: Specialized capability for Supply Chain Carbon Accountant.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: research
 ---
 
-# Skill: scope3-lifecycle-carbon-calc
+# Supply Chain Carbon Accountant — SCOPE3 LIFECYCLE CARBON CALC Skill
 
-## Overview
-Maps supplier expenditure and activity data to granular cradle-to-gate lifecycle assessment emission factor coefficients.
+## Purpose
+The `scope3-lifecycle-carbon-calc` capability provides high-assurance execution routines for `Supply Chain Carbon Accountant`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

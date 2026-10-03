@@ -1,6 +1,0 @@
-app:
-  name: "supply-chain-carbon-accountant"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"

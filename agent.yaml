@@ -1,26 +1,30 @@
 spec_version: "0.1.0"
-name: "supply-chain-carbon-accountant"
-version: "1.0.0"
-category: "research"
+name: supply-chain-carbon-accountant
+version: 1.0.0
+description: Calculates Scope 1, 2, and 3 carbon emissions across multi-tier supplier bills of materials using GHG Protocol Corporate Value Chain standards and ecoinvent emission factors.
 author: "Rucha Salpure"
-description: "Calculates Scope 1, 2, and 3 carbon emissions across multi-tier supplier bills of materials using GHG Protocol Corporate Value Chain standards and ecoinvent emission factors"
-capabilities:
-  - "scope3-lifecycle-carbon-calc"
-  - "autonomous-decision-making"
-  - "explainable-auditing"
-  - "multi-agent-collaboration"
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
 skills:
-  - "scope3-lifecycle-carbon-calc"
-tools:
-  - "python_executor"
-  - "audit_logger"
-  - "schema_validator"
+  - scope3-lifecycle-carbon-calc
+tools: []
+delegation:
+  mode: auto
 runtime:
-  environment: "python3.11"
-  memory_limit: "4GB"
-  timeout_seconds: 300
-governance:
-  audit_logging: true
-  human_in_the_loop: false
-  maker_checker: true
-  explainability_required: true
+  max_turns: 50
+  timeout: 300
+compliance:
+  risk_tier: standard
+  frameworks: []
+tags:
+  - research
+  - autonomous-agent
+  - opengap-verified
+metadata:
+  repository: "https://github.com/ruchasalpure/supply-chain-carbon-accountant"
