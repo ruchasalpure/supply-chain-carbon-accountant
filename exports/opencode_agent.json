@@ -1,0 +1,8 @@
+{
+  "agent_id": "supply-chain-carbon-accountant",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}

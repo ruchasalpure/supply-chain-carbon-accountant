@@ -1,0 +1,5 @@
+{
+  "name": "supply-chain-carbon-accountant",
+  "service": "aws-kiro",
+  "version": "1.0.0"
+}
